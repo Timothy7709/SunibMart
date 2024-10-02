@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Sunib-Mart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js" defer></script>
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> -->
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/sunib-mart-low-resolution-logo-color-on-transparent-background.png" alt="logo" width="125px">
+                    </a>
+                </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>                 
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/icons8-cart-30.png" width="30px" height="30px" alt="icon" id="cart-icon">
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+
+                <div class="cart-content">
+                    
+                </div>
+
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <button type="button" class="btn-buy">Buy Now</button>
+                <i class='bx bx-x' id="cart-close"></i>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--single product details-->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/tufmain.jpg" width="100%" id="productimg" class="product-img">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/tufmain.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/TUF.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/tufpower.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/tufperform.jpg" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home / Laptop</p>
+                <h1 class="product-title">ASUS TUF Gaming F15 Gaming Laptop</h1>
+                <h4 class="product-price">$699.99</h4>
+                <!-- <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>L</option>
+                    <option>M</option>
+                    <option>S</option>
+                </select> -->
+                <!-- <input type="number" value="1"> -->
+                <button type="button" class="btn add-cart">Add To Cart</button>
+                <h3>Product Details <i class="fa fa-indent" ></i></h3>
+                <br>
+                <p>Armed for combat, the TUF Gaming F15 features up to a 10th Gen Intel® Core™ i7 CPU with 6 cores and 12 threads to tear through serious gaming, streaming, and heavy duty multitasking. Paired with up to a GeForce® GTX 1660 Ti discrete GPU, it can pump out reliably high frame rates in a wide range of games. Accelerate load times across a massive collection with an up to 1TB NVMe PCIe® SSD and space for a second SSD.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <a href="product.html">
+                <p>View More</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="small-container">
+
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details-acer.html">
+                    <img src="images/Acernitromain.jpg" alt="product">
+                </a>
+                
+                <h4>Acer Nitro 5 AN515-58-525P Gaming Laptop</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$849.99</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-rog.html">
+                    <img src="images/ROGmainstrix.jpg" alt="product">
+                </a>
+                
+                <h4>ASUS ROG Strix G16 (2023) Gaming Laptop</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$1,329.99</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-tuf.html">
+                    <img src="images/tufmain.jpg" alt="product">
+                </a>
+                
+                <h4>ASUS TUF Gaming F15 Gaming Laptop</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half" ></i>
+                </div>
+                <p>$699.99</p>
+            </div>
+        </div>
+
+        
+        </div>
+        
+    <footer>
+        <p class="footer-p">&copy; 2023 Sunib-Mart. All rights reserved.</p>
+    </footer>
+
+<script>
+    var productimg = document.getElementById("productimg");
+    var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            productimg.src=smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+            productimg.src=smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+            productimg.src=smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+            productimg.src=smallimg[3].src;
+        }
+
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunib-Mart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/sunib-mart-low-resolution-logo-color-on-transparent-background.png" alt="logo" width="125px">
+                </a>
+            </div>
+        <nav>
+            <ul>
+                <!-- <input type="text" id="searchInput" placeholder="Search products...">
+                <ul class="productList" id="productList"></ul> -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>                  
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        
+        <img src="images/icons8-cart-30.png" width="30px" height="30px" alt="icon" id="cart-icon">
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+
+            <div class="cart-content">
+                
+            </div>
+
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <button type="button" class="btn-buy">Buy Now</button>
+            <i class='bx bx-x' id="cart-close"></i>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2  ">
+            <H1>Sunib-Mart</H1>
+            <p>Welcome to SUNIB Mart! your one-stop online destination for all your shopping needs. Since our establishment in 2023, we have 
+                been dedicated to providing an unparalleled shopping experience to customers worldwide. With a vast selection of products, 
+                exceptional customer service, and a user-friendly interface, we aim to make your online shopping journey enjoyable and convenient.</p>
+                <a href="product.html" class="btn">Explore Now &#8594;</a>
+            </div>
+        <div class="col-2">
+            <img src="" alt="">
+        </div>
+    </div>
+    </div>
+</div>
+    
+    <!-- <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="featured catagories/maksim-larin-NOpsC3nWTzY-unsplash.jpg" alt="img1" class="img-feature">
+                </div>
+                <div class="col-3">
+                    <img src="featured catagories/sam-pak-WIeJcQrd3Tw-unsplash.jpg" alt="img2" class="img-feature">
+                </div>
+                <div class="col-3">
+                    <img src="featured catagories/hunters-race-Vk3QiwyrAUA-unsplash.jpg" alt="img3" class="img-feature">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    
+    <div class="recently-viewed-container">
+        <h2>Recently Viewed Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a href="product-details-nike.html">
+                        <img src="images/nikeajmain.jpg" alt="product">
+                    </a>
+                    
+                    <h4>Nike mens Air Jordan 1 Mid Shoes, Cement Grey/White-true Blue</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$183.95</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-details-acer.html">
+                        <img src="images/Acernitromain.jpg" alt="product">
+                    </a>
+                    
+                    <h4>Acer Nitro 5 AN515-58-525P Gaming Laptop</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half" ></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <p>$849.99</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-details-adidas.html">
+                        <img src="images/AdidasMainshoes.jpg" alt="product">
+                    </a>
+                    
+                    <h4>Adidas Women's Cloudfoam Pure 2.0 Running Shoe</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half" ></i>
+                    </div>
+                    <p>$45.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-details-bulova.html">
+                        <img src="images/bulovamain.jpg" alt="product">
+                    </a>
+                    
+                    <h4>Bulova Men's Marine Star Watch</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half" ></i>
+                    </div>
+                    <p>$127.13</p>
+                </div>
+            </div>
+    </div>
+
+    
+    
+
+    <div class="small-container">
+        <h2>Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details1.html">
+                    <img src="images/UAmainshoes.jpg" alt="product">
+                </a>
+                <a href="product-details1.html">
+                    <h4>Under Armour Men's Charged Assert 10 Running Shoe</h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$54.99</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-nb.html">
+                <img src="images/NBmainshoes.jpg" alt="product">
+                </a>
+                <h4>New Balance Men's 608 V5 Cross Trainer</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$51.95</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-adidas.html">
+                    <img src="images/AdidasMainshoes.jpg" alt="product">
+                </a>
+                
+                <h4>Adidas Women's Cloudfoam Pure 2.0 Running Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half" ></i>
+                </div>
+                <p>$45.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-uarun.html">
+                    <img src="images/UAmainRunshoes.jpg" alt="product">
+                </a>
+                
+                <h4>Under Armour Men's Charged Pursuit 3 Running Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$48.70</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details-nike.html">
+                    <img src="images/nikeajmain.jpg" alt="product">
+                </a>
+                
+                <h4>Nike mens Air Jordan 1 Mid Shoes, Cement Grey/White-true Blue</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$183.95</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-rog.html">
+                    <img src="images/ROGmainstrix.jpg" alt="product">
+                </a>
+                
+                <h4>ASUS ROG Strix G16 (2023) Gaming Laptop</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$1,329.99</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-acer.html">
+                    <img src="images/Acernitromain.jpg" alt="product">
+                </a>
+                
+                <h4>Acer Nitro 5 AN515-58-525P Gaming Laptop</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$849.99</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-tuf.html">
+                    <img src="images/tufmain.jpg" alt="product">
+                </a>
+                
+                <h4>ASUS TUF Gaming F15 Gaming Laptop</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half" ></i>
+                </div>
+                <p>$699.99</p>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details-breitling.html">
+                   <img src="images/breitlingmain.jpg" alt="product"> 
+                </a>
+                
+                <h4>Breitling Solid Rose Gold Navitimer 1 B01 Chronograph 43 Mens Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50,630.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-initial.html">
+                    <img src="images/Initialmain.jpg" alt="product">
+                </a>
+                
+                <h4>SAMSUNG Galaxy Watch 4 Classic 46mm Smartwatch</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$199.99</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-guess.html">
+                    <img src="images/guessmain.jpg" alt="product">
+                </a>
+                
+                <h4>GUESS 48MM Crystal Embellished Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$157.50</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-bulova.html">
+                    <img src="images/bulovamain.jpg" alt="product">
+                </a>
+                
+                <h4>Bulova Men's Marine Star Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half" ></i>
+                </div>
+                <p>$127.13</p>
+            </div>
+            
+        </div>
+    </div>
+   
+    <footer>
+        <p class="footer-p">&copy; 2023 Sunib-Mart. All rights reserved.</p>
+    </footer>
+
+    
+
+</body>
+</html>
