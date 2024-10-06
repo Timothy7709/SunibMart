@@ -1,5 +1,9 @@
 Created by:
-TIMOTHY ANSELL SETIADI
-JEREMY MICHAEL PUSPOWARDOJO
-FEIVEL RENSHAN FLANNERY
-ARIF SETIADI PUTRANTO
+
+Timothy Ansell Setiadi
+
+Jeremy Michael Puspowardojo
+
+Feivel Renshan Flannery
+
+Arif Setiadi Putranto
